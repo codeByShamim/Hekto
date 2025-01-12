@@ -1,0 +1,83 @@
+.filters {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 80px 0;
+}
+
+.filterSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+.filterSection ::placeholder{
+  color: lightgray;
+}
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #3F509E; /* Default icon color */
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+
+
+.iconButton.active {
+  background-color: #FB2E86;
+  color: #fff;
+}
+
+/* Style for input fields (number and text) */
+.filters input[type="number"],
+.filters input[type="text"] {
+  padding: 8px 12px; /* Comfortable padding */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem;
+  color: #3F509E; /* Text color */
+  outline: none; /* Remove outline */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth hover/focus effect */
+}
+
+/* Focus effect for input fields */
+.filters input[type="number"]:focus,
+.filters input[type="text"]:focus {
+  border-color: #FB2E86; /* Brand color for focus */
+  box-shadow: 0 0 4px #fb2e87; /* Subtle shadow effect */
+}
+
+/* Placeholder style for text input */
+.filters input[type="text"]::placeholder {
+  color: #3F509E; /* Light gray for placeholder text */
+  font-style: italic; /* Slightly different style for placeholder */
+}
+
+/* Style for select dropdown */
+.filters select {
+  padding: 8px 12px; /* Consistent padding */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  font-size: 1rem;
+  color: #3F509E; /* Text color */
+  background-color: #fff; /* White background */
+  outline: none;
+  appearance: none; /* Custom styling without default dropdown arrow */
+  cursor: pointer; /* Interactive cursor */
+}
+
+/* Focus effect for select */
+.filters select:focus {
+  border-color: #FB2E86; /* Brand color for focus */
+  box-shadow: 0 0 4px #fb2e87; /* Subtle shadow effect */
+}
+
+/* Style for spans inside filters */
+.filters span {
+  color: #3F509E; /* Text color for labels */
+}

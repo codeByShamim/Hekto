@@ -1,0 +1,17 @@
+.blogPage {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blogPosts {
+    width: 70%;
+  }
+  
+  .sidebar {
+    width: 25%;
+  }
+  
+  

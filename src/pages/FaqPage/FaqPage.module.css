@@ -1,0 +1,105 @@
+/* FAQ Page Wrapper */
+.faqPage {
+  max-width: 1440px;
+  margin: auto;
+    display: flex;
+    gap: 30%;
+    padding: 20px;
+    margin-top: 80px;
+  }
+  
+  /* Left Column Styling */
+  .leftColumn {
+    flex: 1;
+  }
+  
+  .sectionTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #1D3178;
+  }
+  
+  .faqItem {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .answer {
+    font-size: 16px;
+    color: #A1ABCC;
+    margin-bottom: 50px;
+  }
+  
+  /* Right Column Styling */
+  .rightColumn {
+    flex: 1;
+    background-color: #F8F8FD;
+    padding: 50px;
+  }
+  
+  .questionForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start; /* Ensures all elements, including the button, are left-aligned */
+  }
+  .sectionTitle{
+    color: #1D3178;
+    margin-bottom: 100px;
+  }
+  
+
+  .inputField, .textArea {
+    outline: 1px solid transparent; /* Default transparent outline */
+    transition: outline-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .inputField:focus, .textArea:focus {
+    outline-color: #FB2E86; /* Set your desired outline color when focused */
+    border-color: #FB2E86; /* Optional: Change border color for better effect */
+  }
+  .inputField::placeholder, .textArea::placeholder {
+    color: #8990B1; /* Set the placeholder text color */
+   
+  }
+  
+  .inputField {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .textArea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+  }
+  
+  .submitButton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FB2E86;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .submitButton:hover {
+    background-color: #e60868;
+  }

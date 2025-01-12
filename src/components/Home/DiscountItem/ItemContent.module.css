@@ -1,0 +1,101 @@
+/* Container for the item content */
+.itemContent {
+    display: flex;
+    justify-content: space-between; /* Space between text content and image */
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .leftSide {
+    flex: 1; /* Take 50% of the width */
+    text-align: left;
+  }
+  
+  .rightSide {
+    flex: 1; /* Take 50% of the width */
+    display: flex;
+    justify-content: center; /* Center the image */
+    align-items: center;
+  }
+  
+  .itemImage {
+    width: 600px; /* Ensure image fits the container */
+    object-fit: cover; /* Ensure proper scaling of the image */
+  }
+  
+  /* Title, Small Title, and Description */
+  h3 {
+    font-size: 2rem; /* Main title font size */
+    font-weight: bold; /* Bold title */
+    color: #151875; /* Blue color for the title */
+  }
+  
+  h4 {
+    font-size: 1.2rem; /* Small title size */
+    color: #FB2E86; /* Grey color for the small title */
+    margin: 20px 0; /* Space above the small title */
+  }
+  
+  p {
+    font-size: 1rem; /* Default paragraph size */
+    color: #B7BACB; /* Grey color */
+    margin-top: 10px; /* Space above paragraph */
+  }
+  
+  /* 4 Details in a Grid Layout */
+  .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 10px; /* Space between grid items */
+    margin-top: 20px; /* Space above details */
+  }
+  
+  .detailItem {
+    display: flex;
+    align-items: center; /* Align the icon and text horizontally */
+  }
+  
+  .icon {
+    color: #7569B2; 
+    font-size: 1rem; /* Icon size */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .detailItem p {
+    font-size: 1rem;
+    color: #B7BACB; /* Light grey color for detail items */
+    margin: 0; /* Remove default margin from p */
+  }
+  
+  /* Shop Now Button */
+  .shopNow {
+    background-color: #FB2E86; /* Red background for the "Shop Now" button */
+    color: white; /* White text color */
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px; /* Space above the button */
+    font-size: 1rem;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .shopNow:hover {
+    background-color: #fa1779;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .itemContent {
+      flex-direction: column; /* Stack the left and right content vertically */
+      text-align: center; /* Center align text for smaller screens */
+    }
+  
+    .itemImage {
+      max-width: 100%; /* Ensure image takes full width on smaller screens */
+    }
+  
+    .details {
+      grid-template-columns: 1fr; /* Stack details in a single column */
+    }
+  }
+  

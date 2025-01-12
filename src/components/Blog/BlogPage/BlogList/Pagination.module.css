@@ -1,0 +1,25 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pageButton {
+    border: 1px solid #E0D3F5;
+    color: #E0D3F5;
+    margin: 0 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pageButton:hover {
+    background-color: #FB2CA8; /* Your brand color */
+    color: #fff;
+  }
+  
+  .pageButton.active {
+    background-color: #FB2CA8; /* Your brand color */
+    color: #fff;
+  }
+  

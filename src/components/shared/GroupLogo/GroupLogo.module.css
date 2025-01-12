@@ -1,0 +1,22 @@
+/* Group logo wrapper styling (below login form) */
+.groupLogoWrapper {
+    background-color: #ffffff; /* Same as the login box background */
+    padding: 30px 0; /* Adds vertical padding for space */
+    text-align: center;
+    margin-top: 80px; /* Adds space between login form and logo */
+    width: 100%;
+    border-radius: 5px;
+    display: flex; /* Ensures the content inside the wrapper is centered */
+    justify-content: center; /* Centers the logo horizontally */
+    align-items: center; /* Ensures the logo is centered vertically */
+    height: auto; /* Ensures the wrapper has an appropriate height */
+  }
+  
+  /* Group logo styling */
+  .groupLogo {
+    max-width: 1050px; /* Ensures logo never exceeds the wrapper's width */
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  

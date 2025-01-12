@@ -1,0 +1,90 @@
+/* Wrapper for the heading bar */
+.headingBarWrapper {
+    position: sticky; /* Makes it sticky */
+    top: 0; /* Sticks to the top of the page */
+    z-index: 200; /* Ensures it appears above other elements */
+    width: 100%; /* Full-width container */
+    margin: 0 auto; /* Centers the container */
+    background-color: #7E33E0; /* Set the background color */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+}
+
+/* Main heading bar styles */
+.headingBar {
+    max-width: 1440px; /* Keeps content centered in a specific width */
+    margin: auto; /* Centers content horizontally */
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex; /* Align children in a row */
+    justify-content: space-between; /* Distributes space between items */
+    align-items: center; /* Centers items vertically */
+    padding: 10px 20px; /* Adds spacing inside the bar */
+}
+.icon{
+    margin-right: 5px;
+}
+
+/* Left and right sections of the heading bar */
+.headingBarLeft,
+.headingBarRight {
+    display: flex;
+    align-items: center;
+}
+/* Spacing for contact items */
+.contactItem {
+    display: flex;
+    align-items: center;  /* Vertically center the icon and text */
+    margin-right: 15px;
+    color: #F1F1F1; /* Ensuring the text color remains intact */
+}
+
+/* Spacing for menu items */
+.menuItem {
+    display: flex;
+    align-items: center;  /* Vertically center the icon and text */
+    margin-left: 15px;
+    cursor: pointer;
+    color: #F1F1F1; /* Default color, keeping your color intact */
+}
+
+/* Icon styling */
+.icon {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+/* Hover effect for menu items */
+.menuItem:hover {
+    color: #D6BAFF; /* Hover color for both text and icon */
+}
+
+/* Icon styling inside menu items */
+.menuItem .icon {
+    margin-left: 5px;
+}
+
+/* Remove hover styles from .icon if already handled by .menuItem */
+.icon:hover {
+    color: inherit; /* Ensure it inherits the hover color from .menuItem */
+}
+
+
+
+/* Styles for select dropdown menu */
+.menuSelect {
+    margin-left: 15px;
+    padding: 5px;
+    font-size: 14px;
+    color: #F1F1F1;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.menuSelect:hover {
+    border-color: #D6BAFF;
+}
+
+/* Select dropdown option styles */
+.menuSelect option {
+    color: #000;
+    background: #FFF;
+}

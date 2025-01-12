@@ -1,0 +1,147 @@
+/* Wrapper for the entire banner */
+.bannerWrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 100%;
+    background-color: #f2f0ff; /* Updated background color */
+    padding: 0px 20px 20px 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: flex-start; /* Align content to the top */
+    position: relative; /* Allow absolute positioning of the dots container */
+}
+
+/* Container for the banner content */
+.bannerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    height: 100%; /* Full height */
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    width: 100%; /* Full width */
+}
+
+.imageContentLeft {
+    width: 0%;
+    position: relative; /* Allow positioning of the dot */
+   
+}
+.imageContentLeft img{
+    margin-left: -100px;
+}
+
+/* Add a dot at the bottom of the left-side image */
+.bottomDot {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    left: 20%;
+    bottom: -100px;
+    background-color: #fb2e86; /* Dot color */
+    border-radius: 50%; /* Make it round */
+}
+
+/* Left side text content */
+.textContent {
+    flex: 1;
+    padding: 200px 20px;
+    max-width: 40%; /* Adjust width to prevent overlap with image */
+    text-align: left; /* Align text to the left */
+    z-index: 100;
+}
+
+.smallText {
+    font-size: 20px; /* Smaller text */
+    color: #fb2e86; /* Color updated to #FB2E86 */
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.largeText {
+    font-size: 50px; /* Big heading */
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.mediumText {
+    font-size: 26px; /* Medium subtitle */
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.shopButton {
+    padding: 12px 30px; /* Increased padding for the button */
+    font-size: 18px; /* Larger button text */
+    background-color: #fb2e86; /* Updated button background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.shopButton:hover {
+    background-color: #e02672; /* Darker shade on hover */
+}
+
+/* Right side image (now positioned left) */
+.imageContentRight {
+    padding: 130px 0;
+}
+
+.imageContentRight img {
+    width: 80%;
+}
+
+.imageContent {
+    flex: 1;
+    max-width: 50%; /* Prevent image overflow */
+    display: flex;
+    justify-content: flex-start; /* Align image to the left */
+    align-items: flex-start; /* Align image to the top */
+}
+
+.bannerImage {
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+
+/* Container for the three bottom circle dots */
+.dotsContainer {
+    position: absolute;
+    bottom: 20px; /* Distance from the bottom of the banner */
+    left: 50%;
+    transform: translateX(-50%); /* Center the dots horizontally */
+    display: flex;
+    gap: 10px; /* Space between dots */
+}
+
+/* Individual dot styles */
+.squareDotFill {
+    width: 10px;
+    height: 10px;
+    background-color: #fb2e86; /* Dot color */
+    transition: transform 0.3s ease; /* Optional: for animation */
+    margin: 5px;
+    /* Apply rotation */
+    transform: rotate(45deg); /* Rotating the dot by 45 degrees */
+}
+.squareDotSolid {
+    width: 10px;
+    height: 10px;
+    border: 2px solid;
+    border-color: #fb2e86; /* Dot color */
+    transition: transform 0.3s ease; /* Optional: for animation */
+    margin: 5px;
+    /* Apply rotation */
+    transform: rotate(45deg); /* Rotating the dot by 45 degrees */
+}
+
+.dot:hover {
+    transform: scale(1.2); /* Optional: enlarge the dot on hover */
+}

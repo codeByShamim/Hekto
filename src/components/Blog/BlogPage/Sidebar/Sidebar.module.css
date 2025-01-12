@@ -1,0 +1,312 @@
+
+.sidebar {
+    /* Sidebar styling */
+  }
+  
+  .sidebar h4 {
+    color: #151875;
+  }
+
+ 
+  .search {
+    margin-bottom: 20px;
+  }
+  
+  .searchInputContainer {
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .search input {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Add padding on the right side for the icon */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none; /* Remove the default outline */
+  }
+  
+  /* Focused input field styling */
+  .search input:focus {
+    border-color: #7E33E0; /* Change the border color when focused */
+    box-shadow: 0 0 0 2px rgba(126, 51, 224, 0.3); /* Add a subtle shadow */
+  }
+  /* Placeholder text color */
+.search input::placeholder {
+    color: #1518751A; 
+  }
+
+  .searchIcon {
+    position: absolute;
+    right: 10px; /* Position the icon on the right inside the input */
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc; /* Adjust the icon color */
+    cursor: pointer;
+  }
+  
+  .categories {
+    margin-bottom: 50px;
+  }
+  
+  .categoryList {
+    display: grid; /* Use CSS Grid */
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(3, auto); /* Three rows */
+    gap: 10px; /* Gap between items */
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .categoryItem {
+    color: #3F509E;
+    padding: 10px 5px;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .categoryItem:hover{
+    background-color: #F939BF; /* Optional background */
+    color: white;
+  }
+  
+  .activeCategory {
+    background-color: #F939BF; /* Optional background */
+    color: white;
+  }
+  
+
+  .recentPosts,
+  .saleProducts {
+    margin-bottom: 50px;
+  }
+  
+  .recentPost,
+  .saleProduct {
+    display: flex;
+    margin-bottom: 15px; /* Add space between items */
+    align-items: center;
+    gap: 15px; /* Add gap between image and text */
+  }
+  
+  .recentPost:hover,
+  .saleProduct:hover {
+    cursor: pointer;
+  }
+  .recentPosts h4 {
+    color: #151875;
+  }
+  
+  .recentPostImage img,
+  .saleProductImage img {
+    width: 50px; /* Set the size of the image */
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px; /* Optional: rounded corners for the image */
+  }
+  
+  .recentPostDetails,
+  .saleProductDetails {
+    flex-grow: 1; /* Take up the remaining space */
+  }
+  
+  .recentPostDetails p,
+  .saleProductDetails p {
+    color: #3f509e;
+    margin-bottom: 5px;
+  }
+  
+  .recentPostDetails span {
+    display: block;
+    color: #8a8fb9;
+    font-size: 0.875rem; /* Smaller font size for the date */
+  }
+  
+  /* New styling for Sale Products */
+  .saleProductDetails {
+    display: flex; 
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .saleProducts h4 {
+    color: #151875;
+  }
+  
+  
+  .saleProductDetails p {
+    font-weight: bold; /* Make the product name bold */
+    color: #3f509e;
+    margin-bottom: 5px;
+  }
+  
+  .saleProductPrice {
+    display: flex; /* Align price and deleted price on the same line */
+    align-items: center;
+  }
+  
+  .saleProductPrice .price {
+    color: #8A8FB9;
+    font-size: 1rem; /* Adjust the font size of the price */
+    margin-right: 10px; /* Add space between the price and deleted price */
+  }
+  
+  .saleProductPrice .deletedPrice {
+    font-size: 0.875rem;
+    color: #f939bf; /* Highlight the deleted price */
+    text-decoration: line-through; /* Strike-through for the deleted price */
+  }
+  
+  .recentPostDetails p:hover,
+  .saleProductDetails p:hover {
+    color: #f939bf; /* Hover effect for the title */
+  }
+
+
+.offerProducts {
+    margin-bottom: 20px;
+  }
+  
+  .offerProducts h4 {
+    color: #151875;
+  }
+  
+  .offerProductsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: repeat(2, auto); /* Two rows */
+    gap: 20px; /* Add space between items */
+  }
+  
+  .offerProduct {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .offerProduct img {
+    width: 100%; /* Ensure the image fills the container */
+    max-width: 150px; /* Limit the image size */
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Space between image and text */
+  }
+  .productName{
+    color:  #151875 !important;
+  }
+  .offerProduct p {
+    color: #8A8FB9;
+    margin: 5px 0;
+  }
+  
+  .offerProduct span {
+    color: #f939bf;
+    text-decoration: line-through; /* Strike-through for the deleted price */
+    font-size: 0.875rem; /* Smaller font for the deleted price */
+  }
+ /* Social Links Section */
+.socialLinks {
+    margin-bottom: 20px;
+    width: fit-content; /* This will adjust the width based on the content */
+  }
+  
+  .socialLinks h4 {
+    color: #151875;
+    margin-bottom: 10px;
+  }
+  
+  .socialLinks ul {
+    list-style: none;
+    display: flex;
+    gap: 15px; /* Space between icons */
+    padding: 10px 20px;
+   margin: 30px 0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  .socialLinks li {
+    display: inline-block;
+  }
+  
+  .socialLinks a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-decoration: none;
+    font-size: 1.25rem; /* Icon size */
+    color: white; /* Icon color */
+  }
+  
+  /* Unique Background Colors for Each Icon */
+  .socialLinks .facebook {
+    background-color: #5625df; /* Facebook color */
+  }
+  
+  .socialLinks .instagram {
+    background-color: #ff27b7; /* Instagram color */
+  }
+  
+  .socialLinks .twitter {
+    background-color: #37daf3; /* Twitter color */
+  }
+  
+  /* Hover Effects */
+  .socialLinks a:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: transform 0.3s ease;
+  }
+  
+
+
+  /* Tags Section */
+.tags {
+    margin-bottom: 20px;
+  }
+  
+  .tags h4 {
+    color: #151875;
+    margin-bottom: 10px;
+  }
+  
+  .tagList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+    gap: 10px; /* Space between tags */
+  }
+  
+  .tag {
+    display: inline-block;
+    padding: 8px 0;
+    color: #151875; /* Tag text color */
+    text-align: left;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect: underline with color change */
+  .tag:hover {
+    color: #FB2E86; /* Text color on hover */
+    text-decoration: underline; /* Underline effect */
+  }
+  
+  /* Optional: Apply padding or margin to the container if needed */
+  .tagList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+
+  .highlight {
+    background-color: #FB2E86;
+    color: white;
+  }
+
+  

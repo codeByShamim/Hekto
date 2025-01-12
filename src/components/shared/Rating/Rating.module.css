@@ -1,0 +1,19 @@
+/* src/components/shared/Rating/Rating.module.css */
+.productRating {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+  }
+  
+  .productRating i {
+    font-size: 12px;
+  }
+  
+  .filledStar {
+    color: #ffc107;
+  }
+  
+  .emptyStar {
+    color: #ccc;
+  }
+  

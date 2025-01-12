@@ -1,0 +1,174 @@
+.latestProducts {
+  max-width: 1440px;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 20px;
+  margin: auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h2 {
+  font-size: 3rem;
+  color: #151875;
+}
+
+.filter {
+  display: flex;
+  justify-content: center; /* Center the filter buttons */
+  gap: 20px; /* Space between buttons */
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.filter button {
+  font-size: 18px;
+  padding: 0px;
+  margin: 15px;
+  background-color: transparent; /* No background color */
+  color: #151875; /* Text color */
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease, border-bottom 0.3s ease; /* Smooth transition */
+  position: relative;
+}
+
+.filter button:hover {
+  color: #FB2E86; /* Active color on hover */
+  border-bottom: 2px solid #FB2E86; /* Underline on hover */
+}
+
+.filter button.active {
+  color: #FB2E86; /* Active color */
+  border-bottom: 2px solid #FB2E86; /* Underline on active */
+}
+
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+
+.productList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 items per row */
+  gap: 30px;
+  padding: 10px 0;
+}
+
+.product {
+  position: relative;
+  border: none; /* Removed border */
+  overflow: hidden;
+  width: 400px; /* Fixed width for each product */
+  height: 300px; /* Fixed height for each product */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product:hover .imageContainer{
+  background-color: transparent; 
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 80%; /* Occupy 60% of the product container's height */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  background-color: #F7F7F7; 
+}
+
+.productImage {
+  max-width: 100%; /* Ensure the image does not overflow */
+  max-height: 100%; /* Ensure the image does not overflow */
+  object-fit: cover; /* Keep aspect ratio while filling container */
+}
+
+
+.product:hover .icons {
+  opacity: 1; /* Icons become visible on hover */
+  transition: opacity 0.3s ease;
+}
+
+.product:hover .imageContainer {
+  background-color: transparent; /* Optional: This is not affecting the icons but allows the image container to remain clear */
+}
+
+
+
+.productDetails {
+  padding: 10px;
+}
+
+.productInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productName {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #151875;
+  margin-bottom: 5px;
+  border-bottom: 2px solid #EEEFFB; /* Adds a line under the product name */
+  padding-bottom: 5px;
+}
+
+.productPrice {
+  font-size: 1rem;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.originalPrice {
+  color: #151875;
+}
+
+.deletedPrice {
+  color: #FB2448;
+  text-decoration: line-through;
+}
+
+
+
+/* Initially hide the icons */
+.customIcons {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0; /* Hide the icons */
+  visibility: hidden; /* Prevent interaction when hidden */
+  transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth transition for appearance */
+}
+
+/* Show icons on hover */
+.product:hover .customIcons {
+  opacity: 1; /* Make the icons visible */
+  visibility: visible; /* Allow interaction when visible */
+}
+
+/* Individual icon styles */
+.customIcons .customCartIcon,
+.customIcons .customWishlistIcon,
+.customIcons .customDetailsIcon {
+  background-color: white; /* Green background */
+  width: 40px; /* Set width for icons */
+  height: 40px; /* Set height for icons */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Circular shape */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+

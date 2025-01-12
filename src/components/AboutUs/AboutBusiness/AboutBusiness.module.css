@@ -1,0 +1,79 @@
+.aboutBusiness {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    gap: 40px;
+  }
+  
+  .imageWrapper {
+    position: relative;
+    width: 50%;
+    max-width: 500px;
+  }
+  
+  .imageBg {
+    position: absolute;
+    background-color: #2B3CAB; 
+    width: 100%;
+    height: 100%;
+    bottom: -10px;
+    left: -10px;
+    z-index: 1;
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 2;
+    border-radius: 8px; /* Optional rounded corners */
+  }
+  
+  .content {
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .title {
+    font-size: 28px;
+    color: #151875;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #8a8fb9;
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  .contactBtn {
+    align-self: flex-start; /* Aligns the button to the left inside its container */
+    padding: 12px 20px; /* Controls internal spacing */
+    background-color: #FB2E86; /* Button background color */
+    color: #fff; /* Text color */
+    font-size: 16px; /* Adjusts text size */
+    font-weight: bold; /* Optional: Makes text more prominent */
+    text-align: center; /* Centers text within the button */
+    border: none;
+    border-radius: 5px; /* Smooth corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; /* Prevents text from wrapping to a new line */
+  }
+  
+  .contactBtn:hover {
+    background-color: #c70559; /* Darker color for hover effect */
+  }
+  

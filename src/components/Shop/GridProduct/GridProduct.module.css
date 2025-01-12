@@ -1,0 +1,136 @@
+/* Card container styles */
+.gridProduct {
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.gridProduct:hover {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Product image container */
+.productImageContainer {
+  position: relative;
+  width: 100%;
+  height: 300px; /* You can adjust this based on the desired image size */
+  background-color: #F6F5FF; /* Background color for the image container */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Ensure the image stays within the bounds of the container */
+}
+
+/* Icons container (hidden by default, shown on hover) */
+.customIcons {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.3s ease;
+}
+
+.productImageContainer:hover .customIcons {
+  opacity: 1; /* Show icons on hover */
+}
+
+
+/* Product image */
+.productImage {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  /* You can adjust the width and height of the image */
+}
+.gridProduct:hover .productImageContainer{
+  border-radius: 5px ;
+}
+
+/* Product details */
+.productDetails {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Product name */
+.productDetails h3 {
+  font-size: 1.2rem;
+  color: #151875;
+  margin: 20px 0;
+}
+
+/* Centered three dots */
+.threeDots {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.threeDots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 50%;
+}
+
+.threeDots span:nth-child(1) {
+  background-color: #DE9034;
+}
+
+.threeDots span:nth-child(2) {
+  background-color: #EC42A2;
+}
+
+.threeDots span:nth-child(3) {
+  background-color: #8568FF;
+}
+
+/* Price and deleted price container */
+.priceContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.productPrice {
+  color: #151875;
+  font-size: 1.1rem;
+  margin: 5px;
+}
+
+.deletedPrice {
+  color: #FB2E86;
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  margin: 5px;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .gridProduct {
+    padding: 10px;
+  }
+
+  .productDetails h3 {
+    font-size: 1rem;
+  }
+
+  .productPrice {
+    font-size: 1rem;
+  }
+
+  .deletedPrice {
+    font-size: 0.8rem;
+  }
+}

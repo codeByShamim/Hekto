@@ -1,0 +1,116 @@
+.listProduct {
+  position: relative;
+  display: flex;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.listProduct:hover {
+  background-color: #f9f9f9;
+}
+
+.productImageWrapper {
+  flex-shrink: 0;
+  width: 200px;
+  height: 120px;
+}
+
+.productImage {
+  width: 80%;
+ 
+}
+
+.productDetails {
+  flex-grow: 1;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.productTopRow {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productTitle {
+  font-size: 1.2rem;
+  color: #111C85;
+  margin: 0;
+}
+.productDescription {
+  font-size: 1.2rem;
+  color: #9295AA;
+  margin: 5px 0 0; /* Space below the title */
+  line-height: 1.5;
+}
+
+.threeDots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.threeDots span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.threeDots span:nth-child(1) {
+  background-color: #DE9034;
+}
+
+.threeDots span:nth-child(2) {
+  background-color: #EC42A2;
+}
+
+.threeDots span:nth-child(3) {
+  background-color: #8568FF;
+}
+.productMiddleRow {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  justify-content: flex-start; /* Align items horizontally */
+  gap: 10px; /* Add space between elements */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.productPrice,
+.productDeletedPrice,
+.productRating {
+  display: flex;
+  align-items: center; /* Center content vertically inside their containers */
+  font-size: 1rem; /* Set consistent font size for all */
+}
+
+.productPrice {
+  color: #111C85;
+  margin-top: 2px;
+}
+
+.productDeletedPrice {
+  color: #FF2AAA;
+  text-decoration: line-through;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+
+
+/* Icons container (hidden by default, shown on hover) */
+.customIcons {
+ 
+  display: flex;
+  gap: 10px;
+  transition: opacity 0.3s ease;
+  margin-left: -15px;
+  margin-top: 10px;
+}

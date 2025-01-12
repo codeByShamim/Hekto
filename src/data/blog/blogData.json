@@ -1,0 +1,375 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Unlocking Your Potential: How to Stay Motivated Every Day",
+      "image": "/assets/images/blog/blog1.png",
+      "author": "Sophia Carter",
+      "date": "January 5, 2024",
+      "category": "Personal Development",
+      "tags": ["Motivation", "Self-Growth", "Productivity Tips"],
+      "excerpt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at."
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog2.png", "/assets/images/blog/blog3.png"],
+          "alt": "React Guide Images"
+        },
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
+        },
+        {
+          "type": "relatedProducts",
+          "products": [28, 29, 30, 31]
+        },
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
+        },
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, "
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "title": "10 Essential Tips for First-Time Travelers",
+      "image": "/assets/images/blog/blog2.png",
+      "author": "Ethan Williams",  
+      "date": "February 16, 2024",
+      "category": "Travel & Lifestyle",
+      "tags": ["Travel Hacks", "First-Time Travelers", "Travel Tips"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [2, 14, 3, 13]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog4.png", "/assets/images/blog/blog5.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Power of Positive Thinking: Transform Your Life Today",
+      "image": "/assets/images/blog/blog3.png",
+      "author": "Olivia Johnson",  
+      "date": "March 20, 2024",
+      "category": "Mental Health",
+      "tags": ["Positive Mindset", "Mental Wellness", "Self-Care"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [8, 9, 21, 4]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog6.png", "/assets/images/blog/blog7.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Top 5 DIY Projects to Transform Your Home on a Budget",
+      "image": "/assets/images/blog/blog4.png",
+      "author": "Liam Brown",  
+      "date": "April 10, 2024",
+      "category": "Technology",
+      "tags": ["DIY Projects", "Home Decor", "Budget-Friendly Ideas"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [8, 6, 30, 21]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog8.png", "/assets/images/blog/blog9.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Exploring the Digital World: 5 Skills to Learn in 2024",
+      "image": "/assets/images/blog/blog5.png",
+      "author": "Ava Martinez",  
+      "date": "May 25, 2024",
+      "category": "Technology",
+      "tags": ["Digital Skills", "Tech Trends", "Career Development"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [7, 9, 25, 21]
+        },
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog10.png", "/assets/images/blog/blog2.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Fitness for Beginners: Easy Steps to Start Your Journey",
+      "image": "/assets/images/blog/blog6.png",
+      "author": "Noah Davis",  
+      "date": "June 8, 2024",
+      "category": "Health & Fitness",
+      "tags": ["Fitness Tips", "Healthy Lifestyle", "Beginners Guide"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis."
+        },
+        {
+          "type": "relatedProducts",
+          "products": [14, 2, 21, 28]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog3.png", "/assets/images/blog/blog4.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "How to Build a Modern Website: A Beginner’s Guide",
+      "image": "/assets/images/blog/blog7.png",
+      "author": "Emma Wilson",  
+      "date": "July 14, 2024",
+      "category": "Web Development",
+      "tags": ["Website Design", "HTML Basics", "Web Development Tips"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [12, 29, 22, 10]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog5.png", "/assets/images/blog/blog6.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Why Networking Is Key to Success in Any Industry",
+      "image": "/assets/images/blog/blog8.png",
+      "author": "Lucas Taylor",  
+      "date": "August 22, 2024",
+      "category": "Career Growth",
+      "tags": ["Networking Tips", "Professional Development", "Career Advice"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [2, 9, 30, 29]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog7.png", "/assets/images/blog/blog8.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "5 Inspirational Stories That Will Ignite Your Inner Strength",
+      "image": "/assets/images/blog/blog9.png",
+      "author": "Mia Anderson",  
+      "date": "September 30, 2024",
+      "category": "Inspirational Stories",
+      "tags":["Life Lessons", "Inspirational Content", "Overcoming Challenges"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [5, 6, 8, 7]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog2.png", "/assets/images/blog/blog3.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Time Management Secrets: How to Make the Most of Your Day",
+      "image": "/assets/images/blog/blog10.png",
+      "author": "Mason Harris",  
+     "date": "October 18, 2024",
+      "category": "Productivity",
+      "tags": ["Time Management", "Efficiency Tips", "Work-Life Balance, Web Design"],
+      "excerpt": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis.",
+      "contentBlocks": [
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "quote",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti molestias sint dolores vero. Facilis velit quibusdam delectus mollitia ea eveniet quia nemo id. Delectus alias distinctio enim facere omnis"
+        },
+        {
+          "type": "relatedProducts",
+          "products": [1, 2, 3, 4]
+        },
+       
+        {
+          "type": "paragraph",
+          "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque consequatur, quisquam eius ratione tempore ullam. Facere dolorem error officia, dolore vitae quasi velit suscipit a excepturi, sequi nostrum non? Aspernatur, suscipit ipsam. Voluptates delectus possimus enim rem nemo impedit quas sit. Architecto, beatae consequatur? Vero laborum numquam, nostrum provident fuga dolore consequatur doloremque! Minima illo eos officia id soluta, dolores inventore accusantium, suscipit nesciunt nulla eveniet quibusdam. Suscipit, sunt cupiditate!"
+        },
+        {
+          "type": "image",
+          "src": ["/assets/images/blog/blog2.png", "/assets/images/blog/blog4.png"],
+          "alt": "React Guide Images"
+        }
+      ]
+    }
+],
+
+
+"tags": [
+  "Inspirational Content",
+  "Career Development",
+  "Time Management",
+  "Self-Growth",
+  "Motivation"
+],
+ 
+  "socialLinks": {
+    "facebook": "https://facebook.com",
+    "instagram": "https://instagram.com",
+    "twitter": "https://twitter.com"
+  },
+
+
+  "tagsForProducts": [
+    "Electronics",
+    "Smartphones",
+    "Laptops",
+    "Headphones",
+    "Smartwatches"
+  ]
+}

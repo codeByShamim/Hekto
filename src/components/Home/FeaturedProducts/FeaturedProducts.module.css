@@ -1,0 +1,194 @@
+/* Wrapper for the entire section */
+.featuredProductsWrapper {
+    max-width: 1440px;
+    margin: auto;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* Section title */
+.sectionTitle {
+    font-size: 3rem;
+    color: #1A0B5B;
+    margin-bottom: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Grid layout for products */
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
+}
+
+/* Individual product card */
+.productCard {
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.productCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Fixed height for the image container */
+.imageWrapper {
+    height: 200px; /* Set a consistent height for all images */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9; /* Optional: background color for empty spaces */
+    overflow: hidden;
+}
+
+/* Product image */
+.productImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ensures the image scales proportionally within the fixed height */
+}
+
+/* Hover effect area (content below the image) */
+.cardContent {
+    padding: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.productCard:hover .cardContent {
+    background-color: #2f1ac4; /* Background color change on hover */
+    color: #fff; /* Make text color white on hover */
+}
+
+/* Product name (title) */
+.productName {
+    font-size: 18px;
+    color: #FB2E86;
+    margin: 10px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.productCard:hover .productName {
+    color: #fff; /* Change title color to white on hover */
+}
+
+/* Product code */
+.productCode {
+    color: #151875;
+}
+
+.productCard:hover .productCode {
+    color: #fff; /* Change code color to white on hover */
+}
+
+/* Line container */
+.lineContainer {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Increased gap for better spacing */
+    margin: 10px 0;
+}
+
+/* Individual line */
+.line {
+    display: inline-block;
+    width: 20px; /* Longer line */
+    height: 4px; /* Height remains the same */
+    background-color: #05E6B7; /* Default color */
+    border-radius: 2px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+/* Hover effect for individual lines */
+.productCard .line:nth-child(1) {
+    background-color: #05E6B7; /* First line color */
+}
+
+.productCard .line:nth-child(2) {
+    background-color: #F701A8; /* Second line color */
+}
+
+.productCard .line:nth-child(3) {
+    background-color: #00009D; /* Third line color */
+}
+
+/* Product price */
+.productPrice {
+    font-size: 18px;
+    color: #151875;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.productCard:hover .productPrice {
+    color: #fff; /* Change price color to white on hover */
+}
+
+/* Bottom Center Lines */
+.bottomLineContainer {
+    display: flex;
+    justify-content: center;
+    gap: 8px; /* Gap between the lines */
+    margin-top: 40px; /* Add spacing from the products */
+}
+
+.bottomLine {
+    display: inline-block;
+    width: 30px; /* Make the lines long */
+    height: 4px; /* Height for the lines */
+    border-radius: 2px; /* Rounded corners */
+    background-color: #FB2E86; /* Default color for the first line */
+}
+
+.bottomLine:nth-child(2),
+.bottomLine:nth-child(3),
+.bottomLine:nth-child(4) {
+    background-color: #FEBAD7; /* Color for the other lines */
+    width: 20px;
+}
+
+/* Icon container on hover */
+.iconContainer {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    gap: 10px;
+    visibility: hidden; /* Initially hidden */
+    opacity: 0;
+    transition: opacity 0.3s ease, visibility 0s 0.3s; /* Fade in/out effect */
+}
+
+.iconItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+/* Icon styles */
+.icon {
+    width: 80%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect: show icons */
+.productCard:hover .iconContainer {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.iconItem:hover {
+    background-color: #F2F0FF;
+}

@@ -1,0 +1,114 @@
+/* Navbar container styling */
+.navbarWrapper {
+    position: sticky;
+    top: 50px;
+    width: 100%; /* Stretch the background across the full width */
+    z-index: 200; /* Ensure it's above most other elements */
+    background-color: #fff; /* White background color */
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 0.5px 0px, rgba(255, 255, 255, 0.25) 0px 0.5px 0px inset;
+}
+
+.navbar {
+    max-width: 1440px; /* Keeps content centered in a specific width */
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto; /* Center the navbar content */
+    color: #000;
+}
+
+/* Logo and links section styling */
+.navbarLeft {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 100px;
+    color: #000;
+}
+
+/* Navigation links styling */
+.navLinks {
+    display: flex;
+    list-style: none;
+}
+
+.navLinks li {
+    position: relative; /* To position the angle icon */
+    margin-right: 20px;
+    display: flex;
+    align-items: center; /* Vertically center text and icon */
+}
+/* Styling for the Home link */
+.navLinks li.homeLink a {
+    color: #FB2E86; /* Color for Home link */
+  }
+  
+  .navLinks li a {
+    text-decoration: none;
+    color: #000; /* Default color for all links */
+    font-size: 16px;
+  }
+  
+  .navLinks li a:hover {
+    text-decoration: underline;
+    color: #FB2E86; /* Hover effect for all links */
+  }
+  
+  /* Angle icon styling */
+  .angleIcon {
+    font-size: 14px;
+    color: #FB2E86;
+  }
+  
+
+/* Search bar section styling */
+.navbarRight {
+    display: flex;
+    align-items: center;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    position: relative; /* Position the search icon inside the input */
+}
+
+/* Search input field styling */
+.searchInput {
+    background-color: transparent;
+    border: 1px solid #E7E6EF;
+    outline-color: #7E33E0;
+    color: #000;
+    padding:  12px;
+    padding-right: 40px; /* Make room for the icon */
+    font-size: 14px;
+    width: 350px;
+    height: 35px; /* Match the height with the icon */
+}
+
+/* Search icon positioning and styling */
+.searchIconWrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 45px; /* Match the input height */
+    background-color: #FB2E86;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchIcon {
+    color: #fff;
+    font-size: 18px; /* Smaller icon size */
+    width: 20px;
+    height: 20px;
+}

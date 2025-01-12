@@ -1,0 +1,50 @@
+.footerBottomWrapper {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #E7E4F8;
+  }
+  
+  .footerBottom {
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .footerBottom p {
+    margin: 0;
+    font-size: 16px;
+    color: #9DA0AE; 
+  }
+  
+  .socialMedia {
+    display: flex;
+    align-items: center; /* Vertically center the icons */
+    margin-top: 10px;
+  }
+  
+  .socialIcon {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px; /* Icon size */
+    text-decoration: none;
+    background-color: #151875;
+    border-radius: 50%;
+    padding: 5px; /* Padding to make icons bigger */
+    display: flex;
+    align-items: center; /* Vertically center icons */
+    justify-content: center; /* Horizontally center icons */
+    transition: transform 0.3s ease; /* Smooth transition for scaling */
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.1); /* Scale the icon to 1.2 times its size */
+  }
+  
+  .socialIcon i {
+    transition: color 0.3s ease; /* Smooth transition for color change */
+  }
+  

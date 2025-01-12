@@ -1,0 +1,174 @@
+/* Contact Section Styles */
+.container {
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+  
+
+  /* Contact Information */
+  .contactInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    gap: 20px; /* Adds space between columns */
+  }
+  
+  .contactItem {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactItem .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 15px; /* Space between dot and text */
+  }
+  .contactInfo .title{
+    margin-bottom: 0;
+  }
+  
+  .contactText p {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #8A8FB9;
+  }
+  
+ 
+  .contactItem:hover .dot {
+    background-color: #FF5733; /* Change color on hover */
+  }
+  
+
+  /* Add styles for Get In Touch section */
+.contactTitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #151875;
+  }
+  
+  .contactDescription {
+    font-size: 16px;
+    color: #8A8FB9;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Form */
+  .contactForm {
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+  }
+  
+  .contactForm .formRow {
+    display: flex;
+    gap: 15px;
+  }
+  /* Contact Form */
+.contactForm .input,
+.contactForm .textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd; /* Change this border color */
+  font-size: 16px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  border-radius: 5px; /* Ensures rounded corners */
+}
+.contactForm .textarea {
+    height: 150px; /* Increase height specifically for textarea */
+    resize: vertical; /* Allow vertical resizing if needed */
+  }
+
+/* Placeholder color */
+.contactForm .input::placeholder,
+.contactForm .textarea::placeholder {
+  color: #8A8FB9; /* Change this color to the desired placeholder color */
+}
+
+/* Border color on focus */
+.contactForm .input:focus,
+.contactForm .textarea:focus {
+ outline-color: #FB2E86; /* Change the border color on focus */
+}
+
+
+
+  .contactForm .sendBtn {
+    padding: 12px 20px;
+    background-color: #FB2E86;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm .sendBtn:hover {
+    background-color: #e60e6c;
+  }
+  
+  /* Row Layout for Contact Form and Image */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for Columns inside the Row */
+  .column {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+  }
+  
+  /* Styling for the Image Section */
+  .contactImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Title Styles */
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #151875;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: #8A8FB9;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+/* Dots for Contact Information Section */
+.dots {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; /* Ensures rounded dots */
+    transition: background-color 0.3s ease; /* Smooth transition when hovered */
+  }
+  .contactItem .dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; /* Ensures rounded dots */
+    transition: background-color 0.3s ease; /* Smooth transition when hovered */
+  }
+  
+  /* Hover effect */
+  .dot:hover {
+    background-color: #FF2F00; /* Change color on hover */
+  }
+  

@@ -1,0 +1,44 @@
+.shopContainerWrapper {
+  max-width: 1440px;
+  margin: auto;
+  display: flex; /* Added for sidebar and content layout */
+  gap: 20px; /* Space between sidebar and main content */
+}
+
+.shopContent {
+  width: 80%; /* Main content takes 80% of the width */
+}
+
+.shopProducts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid {
+  grid-template-columns: repeat(4, 1fr); /* 4 products per row */
+  display: grid;
+  gap: 20px; /* Space between grid items */
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between list items */
+}
+
+.sidebar {
+  width: 20%; /* Sidebar takes 20% of the width */
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  position: sticky; /* Makes the sidebar sticky */
+  top: 0;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Scrollable sidebar if content overflows */
+}
+
+.pagination {
+  margin-top: 20px;
+  text-align: center;
+}

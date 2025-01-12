@@ -1,0 +1,120 @@
+/* Wrapper Section - Defines the overall container background and structure */
+.UniqueFeatureWrapper {
+    background-color: #F1F0FF;
+}
+
+/* Main Unique Feature Container - Manages horizontal layout and spacing for left and right sections */
+.uniqueFeature {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    max-width: 1440px;
+    margin: 20px auto;
+    padding: 50px 0;
+}
+
+/* Left Section - Handles the layout and positioning of the image */
+.leftSection {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* Right Section - Contains text content, description, and action buttons */
+.rightSection {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Right Section Text Content - Styles for headings and bullet points */
+.rightSection h2 {
+    color: #151875;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.description {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.dotItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.dot1 {
+    background-color: #F52B70;
+}
+
+.dot2 {
+    background-color: #2B2BF5;
+}
+
+.dot3 {
+    background-color: #2BF5CC;
+}
+
+.text p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: #ACABC3;
+}
+
+/* Bottom Section - Styles for the action buttons and price display */
+.bottomSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cartPriceSection {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.addToCart {
+    background-color: #FB2E86;
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addToCart:hover {
+    background-color: #fb2e87bb;
+}
+
+.productInfo {
+    text-align: left;
+}
+
+.productName {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #151875;
+}
+
+.price {
+    font-size: 16px;
+    color: #151875;
+}

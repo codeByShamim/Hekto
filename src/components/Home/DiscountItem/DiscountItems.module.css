@@ -1,0 +1,69 @@
+/* Main Container for Discount Items */
+.discountItems {
+  font-family: 'Josefin Sans', sans-serif;
+  max-width: 1440px; /* Limit width for the main content */
+  margin: 0 auto; /* Center horizontally */
+  padding: 20px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 3rem; /* Larger font size for the main heading */
+  color: #151875; /* Dark color */
+  margin-bottom: 30px; /* Space below the heading */
+  margin-top: 50px;
+}
+
+.buttonContainer {
+  margin-bottom: 30px; /* Space below the button container */
+}
+
+/* Default Button Style */
+.btn {
+  color: #151875;
+  border: none;
+  cursor: pointer;
+  margin: 0 20px; /* Space between buttons */
+  font-size: 1.2rem; /* Button font size */
+  background-color: transparent;
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition for background and text color */
+  position: relative; /* Positioning context for the dot */
+}
+
+/* Active Button Style */
+.activeBtn {
+  color: #FB4997; /* Active text color */
+  border-bottom: 2px solid #FB4997;
+}
+
+/* Add a dot to the right side of the active button */
+.activeBtn::after {
+  content: ''; /* Empty content for the dot */
+  position: absolute;
+  right: -15px; /* Adjust positioning for the dot */
+  top: 70%;
+  transform: translateY(-50%); /* Vertically center the dot */
+  width: 6px; /* Size of the dot */
+  height: 6px; /* Size of the dot */
+  border-radius: 50%; /* Make the dot circular */
+  background-color: #FB4997; /* Dot color matching the active color */
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  color: #FB4997; /* Change text color on hover */
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem; /* Reduce button size on small screens */
+    padding: 8px 16px; /* Adjust padding */
+    margin: 5px; /* Less margin for small screens */
+  }
+
+  .heading {
+    font-size: 2rem; /* Reduce heading size on small screens */
+  }
+}

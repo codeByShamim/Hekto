@@ -1,0 +1,60 @@
+.ourFeatures {
+    max-width: 1440px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding: 80px 20px 40px 20px;
+    margin: auto;
+  }
+  
+  /* Heading Styles */
+  .heading {
+    font-size: 3rem;
+    margin-bottom: 50px;
+    color: #000000;
+  }
+  
+  /* Feature Cards Layout */
+  .featureContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+  }
+  
+  /* Individual Feature Card Styling */
+  .featureCard {
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    padding: 40px 40px 20px 40px;
+    background: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover Effects for Feature Cards */
+  .featureCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid #FF9100;
+  }
+  
+  /* Feature Icon Styles */
+  .featureIcon {
+    margin-bottom: 15px;
+  }
+  
+  /* Feature Title Styles */
+  .featureTitle {
+    font-size: 1.6rem;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    color: #151875;
+  }
+  
+  /* Feature Description Styles */
+  .featureDescription {
+    font-size: 1.2rem;
+    color: #1A0B5B4D;
+  }
+  

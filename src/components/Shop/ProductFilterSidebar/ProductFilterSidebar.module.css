@@ -1,0 +1,136 @@
+/* Add this to ensure the price filter is at the bottom of the sidebar */
+.bottomFilter {
+  margin-top: auto;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+}
+
+.filterGroup {
+  margin-bottom: 20px;
+}
+
+.filterGroup h4 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  color: #292C58;
+  border-bottom: 1px solid #292C58;
+  display: inline-block;
+}
+
+.filterGroup label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #7E81A2;
+}
+
+.filterGroup input {
+  margin-right: 10px;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Styling for unchecked checkboxes with different colors */
+.unchecked {
+  accent-color: #d9d4ff;
+}
+
+.unchecked-pink {
+  accent-color: #ffd3e5;
+}
+
+.unchecked-gold {
+  accent-color: #ffe4a0;
+}
+
+.unchecked-yellow {
+  accent-color: #fff4c2;
+}
+
+input[type="checkbox"]:not(:checked) {
+  background-color: #F6F5FF;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid #7e33e077;
+}
+
+input[type="checkbox"]:checked {
+  width: 16px;
+  height: 16px;
+}
+
+/* Price Input Wrapper */
+.priceInputWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.priceInput {
+  width: 100%;
+  padding-right: 30px;
+  padding-left: 10px;
+  margin-top: 20px;
+  height: 35px;
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.priceInput:focus {
+  border-color: #FB2E86;
+  box-shadow: 0 0 4px #fb2e87;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  top: 65%;
+  transform: translateY(-50%);
+  color: #BCBDDB;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+
+.colorGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three columns */
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.colorItem {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.colorName {
+  font-size: 16px;
+  color: #7E81A2;
+}
+
+.colorDot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}

@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+/* Hekto Website Wrapper */
+.hekto-website-wrapper{
+    max-width: 1920px;
+}

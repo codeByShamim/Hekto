@@ -1,0 +1,102 @@
+.footerWrapper {
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #EEEFFB;
+}
+
+.footer {
+  max-width: 1440px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.footerTop {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.firstColumn {
+  width: 30%; /* First column takes 40% width */
+}
+
+.column {
+  padding: 0 20px;
+}
+
+.logo h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.emailSignup {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.emailInput {
+  padding: 15px;
+  width: 100%; /* Take up full width of container minus button width */
+  border: none;
+  outline-color: #7E33E0;
+  border-radius: 5px;
+  box-sizing: border-box; /* Includes padding in the width calculation */
+}
+/* Change the placeholder color and font size */
+.emailInput::placeholder {
+  color: #8A8FB9; /* Placeholder text color */
+  font-size: 14px; /* Placeholder text size */
+}
+
+.signupButton {
+  padding: 10px 40px;
+  background-color: #FB2E86;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  position: absolute;
+  right: 0; /* Place the button inside the container */
+  top: 0;
+  bottom: 0;
+}
+
+.contactInfo h4 {
+  color: #8A8FB9 !important;
+  margin-bottom: 20px !important;
+
+}
+
+.contactInfo p {
+  font-size: 16px;
+  color: #8A8FB9;
+}
+
+.column h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+.linkList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.linkList li {
+  margin: 20px 0;
+}
+
+.linkList a {
+  color: #8A8FB9;
+  text-decoration: none;
+}
+
+.linkList a:hover {
+  text-decoration: underline;
+}

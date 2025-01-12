@@ -1,0 +1,104 @@
+/* LatestBlog.module.css */
+
+.latestBlog {
+    max-width: 1440px;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 40px;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 36px;
+    color: #151875;
+    margin-bottom: 60px;
+  }
+  
+  .blogList {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .blogItem {
+    width: 30%;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+  }
+  .blogItem:hover .blogTitle{
+    color: #FB2E86;
+  }
+  
+  .blogImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .blogDetails {
+    padding: 20px;
+  }
+  
+  .writerInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;  /* Space between icons and text */
+    margin-bottom: 10px;
+  }
+  
+  .writerIcon{
+    font-size: 12px;
+    color: #FB2E86;
+  }
+  .calendarIcon {
+    color: #FFA454;
+  }
+  
+  .writerName,
+  .blogDate {
+    font-size: 14px;
+    color: #555;
+  }
+  .writerName{
+    margin-right: 30px;
+  }
+  
+  .blogTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #151875;
+    margin-bottom: 20px;
+    margin-top: 30px;
+  }
+  /* In LatestBlog.module.css */
+.blogLink {
+  text-decoration: none; /* Remove underline */
+  border-bottom: none;   /* Remove any bottom border */
+}
+
+
+  
+  .blogDescription {
+    font-size: 16px;
+    color: #72718F;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .readMoreBtn {
+    font-size: 16px;
+    color: #151875;
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+  }
+  .readMoreBtn:hover{
+    color: #FB2E86;
+  }
+  
+ 

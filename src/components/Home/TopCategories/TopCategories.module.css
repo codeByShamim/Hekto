@@ -1,0 +1,148 @@
+/* Main container for the Top Categories section */
+.topCategories {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 1440px; /* Limit width for the main content */
+    margin: 0 auto; /* Center horizontally */
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .heading {
+    font-size: 2.5rem; /* Heading font size */
+    color: #151875; /* Dark color */
+    margin-bottom: 30px; /* Space below the heading */
+  }
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 products per row */
+    gap: 20px; /* Space between products */
+  }
+  
+  .productCard {
+    background-color: transparent; /* Remove background from the full product card */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow of content */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease; /* Smooth transform on hover */
+  }
+  
+  .productCard:hover {
+    transform: scale(1.05); /* Slightly scale up the product card on hover */
+  }
+  
+  .productImageContainer {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #F5F6F8; /* Background color for the image container */
+    border-radius: 50%; /* Round border for the background */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  .productImageContainer:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+  .productImageContainer::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid transparent; /* Default state is transparent */
+    border-radius: 50%; /* Make it round */
+    border-bottom-color: #7E33E0; 
+    border-left-color: #7E33E0; 
+    transform: rotate(-40deg); /* Adjust rotation to control border's visible area */
+    opacity: 0; /* Initially invisible */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .productImageContainer:hover::before {
+    opacity: 1; /* Show the border on hover */
+    transform: rotate(0deg); /* Align the border properly */
+  }
+  
+ 
+  
+  .productImage {
+    width: 200px; /* Image width */
+    height: 200px; /* Image height */
+    object-fit: cover; /* Ensure the image fills the container */
+    border-radius: 50%; /* Make the image round */
+  }
+  
+  .viewButton {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #08D15F; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .productImageContainer:hover .viewButton {
+    opacity: 1; /* Show button on hover */
+  }
+  
+  .productDetails {
+    margin-top: 15px;
+  }
+  
+  .productName {
+    font-size: 1.2rem; /* Product name size */
+    color: #151875; /* Dark color for the name */
+  }
+  
+  .productPrice {
+    font-size: 1.1rem; /* Product price size */
+    color: #151875; 
+    margin-top: 5px; /* Space above the price */
+  }
+  
+  /* Dots for navigation */
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+   border: 1px solid #FB4997;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dot.active {
+    background-color: #FB4997; /* Pink color for active dot */
+  }
+  
+  /* Responsive Layout for small screens */
+  @media (max-width: 768px) {
+    .products {
+      grid-template-columns: 1fr 1fr; /* 2 products per row on small screens */
+    }
+  
+    .productImage {
+      width: 120px; /* Smaller image size on mobile */
+      height: 120px; /* Smaller image size on mobile */
+    }
+  
+    .heading {
+      font-size: 2rem; /* Smaller heading on mobile */
+    }
+  }
+  
