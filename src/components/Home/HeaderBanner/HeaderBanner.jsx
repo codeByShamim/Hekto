@@ -1,9 +1,16 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import styles from './HeaderBanner.module.css'; // Import custom styles
 import sofaImage from './images/sofa-promotional-header.png'; // Import the right-side image
 import image32 from './images/image-32.png'; // Import the new left-side image
 
 export default function HeaderBanner() {
+  const navigate = useNavigate(); // Initialize the navigate function
+
+  const handleShopNowClick = () => {
+    navigate('/shop'); // Navigate to the Shop page
+  };
+
   return (
     <div className={styles.bannerWrapper}>
       <div className={styles.bannerContent}>
@@ -33,7 +40,7 @@ export default function HeaderBanner() {
           </p> <br />
           
           {/* Shop Now button */}
-          <button className={styles.shopButton}>Shop Now</button>
+          <button className={styles.shopButton} onClick={handleShopNowClick}>Shop Now</button>
         </div>
 
         {/* Right side image (sofaImage) */}

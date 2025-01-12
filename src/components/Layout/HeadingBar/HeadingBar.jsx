@@ -16,7 +16,7 @@ export default function HeadingBar() {
         {/* Left section: Contact information */}
         <div className={styles.headingBarLeft}>
           <span className={styles.contactItem}>
-            <FaEnvelope className={styles.icon} /> hektofurniture@outlook.com
+            <FaEnvelope className={styles.icon} /> shamimbro@outlook.com
           </span>
           <span className={styles.contactItem}>
             <FaPhone className={styles.icon} /> (12345)67890

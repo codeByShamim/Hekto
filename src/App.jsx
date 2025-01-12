@@ -5,6 +5,7 @@ import { SearchProvider } from './context/blog/SearchContext';
 
 import blogData from './data/blog/blogData.json'; // Ensure this path is correct
 
+
 // Importing pages and components
 import HomePage from './pages/Home/HomePage';
 import LoginPage from './pages/Login/LoginPage';
